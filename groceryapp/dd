@@ -1,0 +1,10 @@
+
+Practical Task:
+ReactJS, Redux, Navigation, Fake APIs
+
+1 Product list adding product details with price
+2. Place order button(Can add a bunch of products)
+3. calculate option
+ - on > 10% of product quantity purchase, decrease product price form original price  by 5%
+ - on > 50%   of product quantity purchase, decrease product price  form original price by 10%
+ - on > 90%  of product quantity purchase, decrease product price  form original price by 20%
