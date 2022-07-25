@@ -8,3 +8,21 @@ ReactJS, Redux, Navigation, Fake APIs
  - on > 10% of product quantity purchase, decrease product price form original price  by 5%
  - on > 50%   of product quantity purchase, decrease product price  form original price by 10%
  - on > 90%  of product quantity purchase, decrease product price  form original price by 20%
+
+
+
+
+
+ 
+const getGrocery=()=>{
+  axios.get('http://localhost:3001/grocery')
+  .then(function (response) {
+    var data=response.data
+    setGdata(data)
+    // console.log(data)
+    
+  })
+  .catch(function (error) {
+    console.log(error);
+  });
+}
